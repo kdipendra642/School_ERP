@@ -17,7 +17,7 @@
                 <div class="box-body">
                     <div class="row">
                         <div class="col">
-                            <form method="post" action="{{ route('profile.store') }}">
+                            <form method="post" action="{{ route('password.update') }}">
                                 @csrf
                                 <div class="form-group">
                                     <h5>Current Password <span class="text-danger">*</span></h5>
